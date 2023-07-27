@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-provider-payment8004" />
+        <module name="cloud-config3344" />
+        <module name="cloud-config3355" />
+        <module name="cloud-rabittmq-consumer8803" />
+        <module name="cloud-sentienl-service8401" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-nacos-consumer-order83" />
+        <module name="cloud-rabbitmq-consumer8802" />
+        <module name="alibaba-provider-payment9002" />
+        <module name="cloud-provider-Hystrix-payment8008" />
+        <module name="cloud-eureka-service7001" />
+        <module name="cloud-openfeign-order82" />
+        <module name="cloud-eureka-service7002" />
+        <module name="cloud-nacos-config3377" />
+        <module name="cloud-sentinel-openFeign9001" />
+        <module name="alibaba-provider-payment9001" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-provider-payment8006" />
+        <module name="cloud-rabbitmq-stream8001" />
+        <module name="cloud-consumer-openfeign-hystrix83" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config" target="1.8" />
+      <module name="cloud-rabittmq-consumer8003" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

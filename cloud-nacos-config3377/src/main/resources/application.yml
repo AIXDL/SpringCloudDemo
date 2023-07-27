@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    active: dev #指定使用哪个环境的配置
+#    active: test #指定使用哪个环境的配置

@@ -1,0 +1,29 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: cloud-sentinel-openfeign-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #配置Sentinel Dashboard地址
+        port: 8719 #配置Sentinel控制台的端口
+
+
+
+feign:
+  sentinel:
+    enabled: true #开启Sentinel对Feign的支持
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  com.aixdl: debug
+  file:
+    name: logs/cloud-sentinel-service8401.log
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-provider-payment9001/alibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/alibaba-provider-payment9001/alibaba-provider-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/alibaba-provider-payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config3344/cloud-config3344.iml" filepath="$PROJECT_DIR$/cloud-config3344/cloud-config3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config3355.iml" filepath="$PROJECT_DIR$/cloud-config3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-openfeign-hystrix/cloud-consumer-openfeign-hystrix83.iml" filepath="$PROJECT_DIR$/cloud-consumer-openfeign-hystrix/cloud-consumer-openfeign-hystrix83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-service7001.iml" filepath="$PROJECT_DIR$/cloud-eureka-service7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-service7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-service7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-openfeign-order82.iml" filepath="$PROJECT_DIR$/cloud-openfeign-order82.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-Hystrix-payment8008.iml" filepath="$PROJECT_DIR$/cloud-provider-Hystrix-payment8008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8006.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-rabbitmq-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-rabbitmq-stream8001.iml" filepath="$PROJECT_DIR$/cloud-rabbitmq-stream8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-rabittmq-consumer8803/cloud-rabittmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-rabittmq-consumer8803/cloud-rabittmq-consumer8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-sentienl-service8401.iml" filepath="$PROJECT_DIR$/cloud-sentienl-service8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-sentinel-openFeign9001.iml" filepath="$PROJECT_DIR$/cloud-sentinel-openFeign9001.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 81
+spring:
+  application:
+    name: cloud-consumer-order #指定服务名称
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己注册到EurekaServer，默认为true
+    fetch-registry: true #是否从EurekaServer获取注册信息，默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #设置与EurekaServer交互的地址，查询服务和注册服务都需要依赖这个地址
+
+
+

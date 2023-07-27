@@ -1,0 +1,47 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway-service #指定服务名称
+  datasource:
+    url: jdbc:mysql://localhost:3306/aixdl?userSSL=false&c har acterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 19750424
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+      routes:
+        - id: payment_routh #路由的ID，没有规定规则但要求唯一，建议配合服务名
+#          uri: http://localhost:8001 #匹配后提供服务的路由地址
+          uri: lb://cloud-payment-service #匹配后提供服务的路由地址,可实现负载均衡
+          predicates:
+            - Path=/payment/queryById/** #断言，路径相匹配的进行路由
+        - id: payment_routh2 #路由的ID，没有规定规则但要求唯一，建议配合服务名
+#          uri: http://localhost:8001 #匹配后提供服务的路由地址
+          uri: lb://cloud-payment-service #匹配后提供服务的路由地址,可实现负载均衡
+          predicates: #断言，条件满足则进行路由
+             - Path=/payment/discovery/** #断言，路径相匹配的进行路由
+             - After=2020-04-01T00:00:00+08:00[Asia/Shanghai] #断言，时间在指定时间之后的进行路由
+             - Before=2020-04-01T00:00:00+08:00[Asia/Shanghai] #断言，时间在指定时间之前的进行路由
+             - Between=2020-04-01T00:00:00+08:00[Asia/Shanghai],2020-04-01T00:00:00+08:00[Asia/Shanghai] #断言，时间在指定时间之间的进行路由
+             - Cookie=username,zhangsan #断言，cookie中包含指定的键值对的进行路由
+             - Header=X-Request-Id, \d+ #断言，请求头中包含X-Request-Id的属性并且值为整数的正则表达式
+
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己注册到EurekaServer，默认为true
+    fetch-registry: true #是否从EurekaServer获取注册信息，默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #设置与EurekaServer交互的地址，查询服务和注册服务都需要依赖这个地址
+  instance:
+    instance-id: payment8001 #在信息列表中显示主机名称
+    prefer-ip-address: true #访问路径可以显示IP地址
+
+
+

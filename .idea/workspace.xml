@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3b1a33a-a5e1-4a83-ae35-346e93ada924" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.9.2" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2S41NZBe5K8y5NqoGAQKVqB3eHs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JavaProject/SpringCloud/cloud-sentinel-openFeign9001/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f25f40aea20f3cf6bf18723efe6b7ac4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\SpringCloud\cloud-sentinel-openFeign9001\src\main\resources" />
+      <recent name="E:\JavaProject\SpringCloud\alibaba-provider-payment9002\src\main\java\com\aixdl" />
+      <recent name="E:\JavaProject\SpringCloud\alibaba-provider-payment9002\src\main\resources" />
+      <recent name="E:\JavaProject\SpringCloud\cloud-rabittmq-consumer8803\src\main\java\com\aixdl" />
+      <recent name="E:\JavaProject\SpringCloud\cloud-provider-payment8002\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\SpringCloud\cloud-nacos-consumer-order83\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aixdl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aixdl.controller" />
+      <recent name="com.aixdl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.cloud-openfeign-order82">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpringCloud" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpringCloud" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alibaba-provider-payment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alibaba-provider-payment9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-provider-payment9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-config3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-consumer-openfeign-hystrix83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-openfeign-hystrix83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-consumer-order80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.OrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-euerka-service7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="cloud-eureka-service7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.EurekaMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-euerka-service7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-service7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.EurekaMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-gateway9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-nacos-config3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-nacos-config3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-nacos-consumer-order83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-nacos-consumer-order83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-openfeign-order82" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-openfeign-order82" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.OrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-provider-hystrix-payment8008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-Hystrix-payment8008" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.HystrixMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-provider-payment8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.PaymentMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-provider-payment8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.PaymentMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-rabbitmq-consumer8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-rabbitmq-consumer8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-rabittmq-consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-rabbitmq-stream80001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-rabbitmq-stream8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-sentinel-openFeign9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-sentinel-openFeign9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-sentinel-service8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-sentienl-service8401" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aixdl.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.alibaba-provider-payment9002" />
+      <item itemvalue="Spring Boot.cloud-nacos-config3377" />
+      <item itemvalue="Spring Boot.cloud-nacos-consumer-order83" />
+      <item itemvalue="Spring Boot.cloud-sentinel-service8401" />
+      <item itemvalue="Spring Boot.cloud-sentinel-openFeign9001" />
+      <item itemvalue="Spring Boot.cloud-provider-payment8002" />
+      <item itemvalue="Spring Boot.cloud-gateway9527" />
+      <item itemvalue="Spring Boot.cloud-openfeign-order82" />
+      <item itemvalue="Spring Boot.cloud-provider-payment8001" />
+      <item itemvalue="Spring Boot.cloud-consumer-order80" />
+      <item itemvalue="Spring Boot.cloud-euerka-service7001" />
+      <item itemvalue="Spring Boot.cloud-provider-hystrix-payment8008" />
+      <item itemvalue="Spring Boot.cloud-consumer-openfeign-hystrix83" />
+      <item itemvalue="Spring Boot.cloud-euerka-service7002" />
+      <item itemvalue="Spring Boot.cloud-rabbitmq-stream80001" />
+      <item itemvalue="Spring Boot.cloud-rabbitmq-consumer8802" />
+      <item itemvalue="Spring Boot.cloud-rabbitmq-consumer8803" />
+      <item itemvalue="Spring Boot.alibaba-provider-payment9001" />
+      <item itemvalue="Spring Boot.cloud-config3344" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3b1a33a-a5e1-4a83-ae35-346e93ada924" name="Changes" comment="" />
+      <created>1688391003076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688391003076</updated>
+      <workItem from="1688391004117" duration="6522000" />
+      <workItem from="1688398004636" duration="44000" />
+      <workItem from="1688398066232" duration="1697000" />
+      <workItem from="1688427431661" duration="15814000" />
+      <workItem from="1688445571630" duration="307000" />
+      <workItem from="1688445890719" duration="134000" />
+      <workItem from="1688446037920" duration="865000" />
+      <workItem from="1688450512703" duration="345000" />
+      <workItem from="1688451049714" duration="80000" />
+      <workItem from="1688451138354" duration="54000" />
+      <workItem from="1688451202049" duration="11000" />
+      <workItem from="1688451221059" duration="1920000" />
+      <workItem from="1688453159357" duration="41000" />
+      <workItem from="1688453209713" duration="41000" />
+      <workItem from="1688453258718" duration="49000" />
+      <workItem from="1688453317252" duration="932000" />
+      <workItem from="1688454266144" duration="750000" />
+      <workItem from="1688455028740" duration="495000" />
+      <workItem from="1688517803981" duration="13102000" />
+      <workItem from="1688556994196" duration="7714000" />
+      <workItem from="1688565558434" duration="3846000" />
+      <workItem from="1688570200458" duration="799000" />
+      <workItem from="1688624005667" duration="59000" />
+      <workItem from="1688693879362" duration="1515000" />
+      <workItem from="1688715509698" duration="477000" />
+      <workItem from="1688715998823" duration="4688000" />
+      <workItem from="1688984254289" duration="15000" />
+      <workItem from="1689234160488" duration="5602000" />
+      <workItem from="1689249860182" duration="1628000" />
+      <workItem from="1689302070427" duration="4661000" />
+      <workItem from="1689334979721" duration="9233000" />
+      <workItem from="1689386620683" duration="4032000" />
+      <workItem from="1689394945507" duration="9327000" />
+      <workItem from="1689601923541" duration="5002000" />
+      <workItem from="1689686454370" duration="3074000" />
+      <workItem from="1689761768909" duration="6134000" />
+      <workItem from="1689849354323" duration="4642000" />
+      <workItem from="1689905093423" duration="1887000" />
+      <workItem from="1689917658453" duration="6178000" />
+      <workItem from="1689996026435" duration="12706000" />
+      <workItem from="1690090425096" duration="14048000" />
+      <workItem from="1690123943035" duration="300000" />
+      <workItem from="1690164301601" duration="401000" />
+      <workItem from="1690166128126" duration="5837000" />
+      <workItem from="1690193632630" duration="2713000" />
+      <workItem from="1690202961910" duration="51000" />
+      <workItem from="1690206822381" duration="3251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

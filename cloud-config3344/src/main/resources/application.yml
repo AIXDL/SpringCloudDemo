@@ -1,0 +1,40 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  datasource:
+    url: jdbc:mysql://localhost:3306/aixdl?userSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 19750424
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:zzyybs/springcloud-config.git #GitHub上面的git仓库名字
+          search-paths:
+             - springcloud-config #GitHub上面的git仓库下面的目录
+      label: master #GitHub上面的git仓库的分支名字
+
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己注册到EurekaServer，默认为true
+    fetch-registry: true #是否从EurekaServer获取注册信息，默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #设置与EurekaServer交互的地址，查询服务和注册服务都需要依赖这个地址
+
+#引入rabbitmq配置
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh" #暴露bus-refresh端点，否则无法刷新

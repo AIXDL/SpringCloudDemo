@@ -1,0 +1,53 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: cloud-rabbitmq-consumer #指定服务名称
+  datasource:
+    url: jdbc:mysql://localhost:3306/aixdl?userSSL=false&c har acterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 19750424
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    stream:
+      binders:
+        defaultRabbit: # 表示定义的名称，用于于binding整合
+          type: rabbit # 消息组件类型
+          environment: # 设置rabbitmq的相关环境配置
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings: # 服务的整合处理
+        input:
+          destination: studyExchange # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为json，文本则设置“text/plain”
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+          group: GroupA # 消费者分组
+
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己注册到EurekaServer，默认为true
+    fetch-registry: true #是否从EurekaServer获取注册信息，默认为true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ #设置与EurekaServer交互的地址，查询服务和注册服务都需要依赖这个地址
+  instance:
+    instance-id: payment8001 #在信息列表中显示主机名称
+    prefer-ip-address: true #访问路径可以显示IP地址
+    # 客户端向注册中心发送心跳的时间间隔，（默认30秒）
+    lease-renewal-interval-in-seconds: 1
+    #Eureka注册中心（服务端）在收到客户端心跳之后，等待下一次心跳的超时时间，如果在这个时间内没有收到下次心跳，则移除该客户端。（默认90秒）
+    lease-expiration-duration-in-seconds: 2
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+logging:
+  level:
+    com.aixdl:
+      dao: debug
